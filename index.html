@@ -185,7 +185,6 @@
 			</section>
 			
 			<!-- project section 시작 -->
-			
 			<section class="colorlib-education" data-section="projects">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -197,13 +196,14 @@
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<div class="fancy-collapse-panel">
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<!-- 파이널 팀 프로젝트 -->
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
 									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">FINAL Project(팀프로젝트)</a>
 									        </h4>
 									    </div>
-<!-- 									    
+									    
 									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									     	<div class="panel-body">
 									            	<table class="table">
@@ -252,15 +252,16 @@
 																Database : MariaDB(10.1.48)<br>
 																Language : Java(11.0.17)</td>
 									            		</tr>
-									            	</table>
-									            	
+									            	</table>								            	
 									         </div>
 									    </div>
 									</div>
+										
+									<!-- 가계부 프로젝트 -->
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">쇼핑몰 PROJECT(세미팀프로젝트)
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">가계부 PROJECT(개인프로젝트)
 									            </a>
 									        </h4>
 									    </div>
@@ -271,50 +272,50 @@
 									            			<td colspan ="2">
 									            				<p>상태 : 기능구현 완성, 디자인 개선 및 데이터 추가 완료</p>
 									            				<p>이미지를 누르시면 배포 중인 해당 사이트를 확인하실 수있습니다.</p>
-									            				<a href="http://localhost/perfumeshop/home" target="_blank"><img src ="images/shop.PNG" width="90%" height="70%"></a>
+									            				<a href="http://3.34.33.114/cash/off/login" target="_blank"><img src ="images/cashbook.jpg" width="90%" height="70%"></a>
 									            			</td>
 									            		</tr>
 									            		<tr>
 									            			<td width="100">깃허브 주소</td>
-									            			<td><a href="https://github.com/gdj66-project-6/perfumeshop">https://github.com/gdj66-project-6/perfumeshop</a></td>
+									            			<td><a href="https://github.com/dinpyo/cashbook">https://github.com/dinpyo/cashbook</a></td>
 									            		</tr>										            		
 									            		<tr>
 									            			<td>프로젝트 설명</td>
-									            			<td>MVC model2 방식으로 만든 첫 팀프로젝트이고 3명이 팀을 이루어 진행하였습니다.<br>
-									            				앞서 했던 개인프로젝트에 비해 DB의 테이블의 개수가 매우 많아짐에 따라 외래키의 불편함과 많아지는 조인문을 경험했습니다.<br>
-									            				Github를 협업으로 처음 사용하다보니 처음엔 커밋 충돌 오류가 많이 났습니다.<br>
-									            				담당하게된 부분은 로그인/로그아웃, 메인화면, 고객센터, 직원 및 고객의 등급변경, 공지사항이며 맡은 부분은 완료를 했습니다.<br>
-									            				session을 이용하여 로그인 화면을 구현했고, JavaScript로 고객탭과 직원탭을 구현했습니다.<br>
-									            				로그아웃은 session.invalidate()를 사용하여 구현했습니다.<br>
-									            				고객 및 직원의 등급 변경은 Jquery를 이용하여 select box의 값이 바뀌면 form이 submit 되도록 하였습니다.<br>
-									            				고객센터와 공지사항은 CRUD와 페이징을 구현했습니다.<br>
-									            				<br>
-									            				</td>
+									            			<td>Model 2 방식으로 만든 개인 프로젝트입니다.<br>
+									            			     Java의 Calendar API를 이용하여 달력을 만들어 가계부를 구성하였으며,<br>
+									            				 세션을 통해 로그인 기능을 구현하였습니다.<br>
+									            			</td>
 									            		</tr>
 									            		<tr>
+									            			<!-- 노트북 개발 환경 -->
 									            			<td>개발환경</td>
 									            			<td>OS : Window11<br>
-									            				Library : BootStrap5, JSTL(1.2), jQuery(3.6.1)<br>
-																Language : Java(JavaSE-11), HTML5, CSS3, JavaScript(ES6)<br>
-																사용 프로그램 : eclipse(2022-03 (4.23.0)),HeidiSQL(12.3.0)<br>
-																Database : Mariadb(10.5.18) <br>
-																server : tomcat9.0.68</td>
+									            				Library : BootStrap5, MariaDB Java Client(3.1.4), JSTL(1.2), jQuery(3.7.0) <br>
+																Language : Java(JavaSE-17), HTML5, CSS3, JavaScript(ES6) <br>
+																사용 프로그램 : eclipse(2022-12 (4.23.0)), HeidiSQL(11.3.0) <br>
+																Database : Mariadb(10.5.19) <br>
+																server : tomcat(9.0.75)
+															</td>
 									            		</tr>
 									            		<tr>
+									            			<!-- AWS 설정 -->
 									            			<td>서비스환경</td>
-									            			<td>OS: Ubuntu (18.04)<br>
+									            			<td>OS: Ubuntu (18.04.6)<br>
 																Platform : AWS Lightsail<br>
-																Database : MariaDB(10.1.48)<br>
-																Language : Java(11.0.17)</td>
+																Database : MariaDB(18.04.1)<br>
+																Language : Java(17.0.7)
+															</td>
 									            		</tr>
 									            	</table>
 									         </div>
 									    </div>
 									</div>
+									
+									<!-- 쇼핑몰 팀 프로젝트 -->
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">online-test PROJECT(개인프로젝트)
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">쇼핑몰 PROJECT(세미팀프로젝트)
 									            </a>
 									        </h4>
 									    </div>
@@ -325,92 +326,100 @@
 									            			<td colspan ="2">
 									            				<p>상태 : 기능구현, 디자인 완성</p>
 									            				<p>이미지를 누르시면 배포 중인 해당 사이트를 확인하실 수있습니다.</p>
-									            				<a href="http://localhost/online-test/index" target="_blank"><img src ="images/online.PNG" width="90%" height="70%"></a>
+									            				<a href="http://3.34.33.114/shopping/main/home.jsp" target="_blank"><img src ="images/online.PNG" width="90%" height="70%"></a>
 									            			</td>
 									            		</tr>
 									            		<tr>
 									            			<td width="100">깃허브 주소</td>
-									            			<td><a href="https://github.com/dinpyo/online_test">https://github.com/dinpyo/online_test</a></td>
+									            			<td><a href="https://github.com/GDJ66-7/Shopping-Project">https://github.com/GDJ66-7/Shopping-Project</a></td>
 									            		</tr>									            		
 									            		<tr>
 									            			<td>프로젝트 설명</td>
-									            			<td>spring boot 프레임 워크를 사용하여 만든 개인 프로젝트입니다.<br>
-									            			     사원의 사원,강사,학생 관리<br>
-									            				 강사의 문제출제, 학생의 시험응시 및 성적관리를 구현했습니다.<br>
-									            					</td>
-									            		</tr>
-									            		<tr>
-									            			<td>개발환경</td>
-									            			<td>OS : Window11<br>
-									            				Library : Servlet(4.0), BootStrap5, JSTL(1.2), jQuery(3.6.1)<br>
-																Language : Java(JavaSE-11), HTML5, CSS3, JavaScript(ES6)<br>
-																사용 프로그램 : SpringToolSuite4(4.15.3),HeidiSQL(12.3.0)<br>
-																Database : Mariadb(10.5.18) <br>
-																server : tomcat9.0.68</td>
-									            		</tr>
-									            		<tr>
-									            			<td>서비스환경</td>
-									            			<td>OS: Ubuntu (18.04)<br>
-																Platform : AWS Lightsail<br>
-																Database : MariaDB(10.1.48)<br>
-																Language : Java(11.0.17)</td>
-									            		</tr>
-									            	</table>
-									         </div>
-									    </div>
-									</div>
-
- -->
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">가계부 PROJECT(개인프로젝트)
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-											<div class="panel-body">
-									            	<table class="table">
-									            		<tr>
-									            			<td colspan ="2">
-									            				<p>상태 : 기능구현 , 디자인 완성</p>
-									            				<p>이미지를 누르시면 배포 중인 해당 사이트를 확인하실 수있습니다.</p>
-									            				<a href="http://3.34.33.114/cash/off/login" target="_blank"><img src ="images/cashbook.jpg" width="90%" height="70%"></a>
+									            			<td>MVC model 1 방식으로 만든 첫 팀프로젝트이고 4명이 팀을 이루어 진행하였습니다.<br>
+									            				앞서 했던 개인프로젝트에 비해 DB의 테이블의 개수가 매우 많아짐에 따라 외래키의 불편함과 많아지는 조인문을 경험했습니다.<br>
+									            				Github를 협업으로 처음 사용하다보니 처음엔 커밋 충돌 오류가 많이 났습니다.<br>
+									            				담당하게된 부분은 로그인/로그아웃, 메인화면, 고객센터, 직원 및 고객의 등급변경, 공지사항이며 맡은 부분은 완료를 했습니다.<br>
+									            				session을 이용하여 로그인 화면을 구현했고, JavaScript로 고객탭과 직원탭을 구현했습니다.<br>
+									            				로그아웃은 session.invalidate()를 사용하여 구현했습니다.<br>
+									            				고객 및 직원의 등급 변경은 Jquery를 이용하여 select box의 값이 바뀌면 form이 submit 되도록 하였습니다.<br>
+									            				고객센터와 공지사항은 CRUD와 페이징을 구현했습니다.<br>
+									            				<br>
 									            			</td>
 									            		</tr>
 									            		<tr>
-									            			<td width="100">깃허브 주소</td>
-									            			<td><a href="https://github.com/dinpyo/cashbook">https://github.com/dinpyo/cashbook</a></td>
-									            		</tr>
-									            		<tr>
-									            			<td>프로젝트 설명</td>
-									            			<td>Model 2 방식으로 만든 개인 프로젝트입니다.<br>
-									            			     Java의 Calendar API를 이용하여 달력을 만들어 가계부를 구성하였으며,<br>
-									            				 세션을 통해 로그인 기능을 구현하였습니다.<br>
-									            					</td>
-									            		</tr>
-									            		<tr>
-									            			<!-- 현재 노트북 설정 -->
 									            			<td>개발환경</td>
 									            			<td>OS : Window11<br>
 									            				Library : BootStrap5, MariaDB Java Client(3.1.4), JSTL(1.2), jQuery(3.7.0) <br>
 																Language : Java(JavaSE-17), HTML5, CSS3, JavaScript(ES6)<br>
 																사용 프로그램 : eclipse(2022-12 (4.23.0)), HeidiSQL(11.3.0)<br>
 																Database : Mariadb(10.5.19) <br>
-																server : tomcat9.0.75</td>
+																server : tomcat10.1.11
+															</td>
 									            		</tr>
 									            		<tr>
-									            			<!-- 현재 AWS 설정 -->
 									            			<td>서비스환경</td>
 									            			<td>OS: Ubuntu (18.04.6)<br>
 																Platform : AWS Lightsail<br>
 																Database : MariaDB(18.04.1)<br>
-																Language : Java(17.0.7)</td>
+																Language : Java(17.0.7)
+															</td>
 									            		</tr>
 									            	</table>
 									         </div>
 									    </div>
 									</div>
+
+									<!-- 게시판 프로젝트 -->
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFour">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">게시판 PROJECT(개인프로젝트)
+									            </a>
+									        </h4>
+									    </div>   
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+											<div class="panel-body">
+								            	<table class="table">
+								            		<tr>
+								            			<td colspan ="2">
+								            				<p>상태 : 기능구현 , 디자인 완성</p>
+								            				<p>이미지를 누르시면 배포 중인 해당 사이트를 확인하실 수있습니다.</p>
+								            				<a href="http://3.34.33.114/" target="_blank"><img src ="images/cashbook.jpg" width="90%" height="70%"></a>
+								            			</td>
+								            		</tr>
+								            		<tr>
+								            			<td width="100">깃허브 주소</td>
+								            			<td><a href="https://github.com/dinpyo/userboard">https://github.com/dinpyo/userboard</a></td>
+								            		</tr>
+								            		<tr>
+								            			<td>프로젝트 설명</td>
+								            			<td>JSP 방식으로 만든 개인 프로젝트입니다.<br>
+								            			    Java의 Calendar API를 이용하여 달력을 만들어 가계부를 구성하였으며,<br>
+								            				세션을 통해 로그인 기능을 구현하였습니다.<br>
+								            			</td>
+								            		</tr>
+								            		<tr>
+								            			<td>개발환경</td>
+								            			<td>OS : Window11<br>
+								            				Library : BootStrap5, MariaDB Java Client(3.1.4), JSTL(1.2), jQuery(3.7.0) <br>
+															Language : Java(JavaSE-17), HTML5, CSS3, JavaScript(ES6)<br>
+															사용 프로그램 : eclipse(2022-12 (4.23.0)), HeidiSQL(11.3.0)<br>
+															Database : Mariadb(10.5.19) <br>
+															server : tomcat10.1.11
+														</td>
+								            		</tr>
+								            		<tr>
+								            			<td>서비스환경</td>
+								            			<td>OS: Ubuntu (18.04.6)<br>
+															Platform : AWS Lightsail<br>
+															Database : MariaDB(18.04.1)<br>
+															Language : Java(17.0.7)
+														</td>
+								            		</tr>
+								            	</table>
+									         </div>
+									    </div>
+									</div>									
 								</div>
 							</div>
 						</div>
@@ -443,4 +452,3 @@
 
 	</body>
 </html>
-
